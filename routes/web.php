@@ -14,5 +14,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('1_depan');
+    return view('8_menu_detail');
 });
+Route::resource('','PageController'); 
