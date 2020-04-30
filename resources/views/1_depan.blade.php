@@ -15,71 +15,26 @@
         </style>
     </head>
     <body>
-    <div class="container-sm">
+
+    <nav>
+        <div class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #E2F3FD;">
+                <a class="navbar-brand" href="#">
+                <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Lunch&CO
+                </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit" style="background-color: #399EDD;" >
+                    <a style="color: #E2F3FD;">Login</a>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
     
-        <nav class="navbar navbar-light bg-light" style=background-color: #ff6347;>
-        <a class="navbar-brand" href="#">
-        <img src="https://imgur.com/aE4Kn1B"  width="30" height="30" class="d-inline-block align-top" alt="">LUNCH&CO
-        </a>
-        </nav>
-
-
-
-
-        <div class="jumbotron jumbotron-fluid text-center" style="background-color: aqua;">
-            <h1 class="display-1">CV</h1>
-            <p class="lead">05211840000114</p>
-            <p class="lead">Kota Padang</p>
-            <p class="lead">Arvy Muhammad Reyhan</p>
-            <p class="lead">082337748598</p>
-
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <h2 >Name :</h2>
-            </div>            
-            <div class="col-sm-8">
-                <p class="d-block p-2 bg-primary text-white">Arvy Muhammad Reyhan</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Tempat/Tanggal lahir :</h2>
-            </div>            
-            <div class="col-sm-8">
-                <p class="d-block p-2 bg-primary text-white">Padang/27-07-2000</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Riwayat Pendidika :</h2>
-            </div>
-            <div class="col-sm-8">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">(2015-2018) SMA IC ALKAUSAR</li>
-                    <li class="list-group-item">(2019-now) Institut teknologi sepuluh nopember</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-sm-4">
-                <h2>Skill :</h2>
-            </div>
-            <div class="col-sm-8">
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">1. Excelent at english</li>
-                    <li class="list-group-item">2. Good in Speaking</li>
-                    <li class="list-group-item">3. Can understand English</li>
-                    <li class="list-group-item">4. Understand UX</li>
-                    <li class="list-group-item">5. A team player</li>
-                </ul>
-            </div>
-        </div>
-
         
     </body>
 </html>
