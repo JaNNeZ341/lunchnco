@@ -10,26 +10,65 @@
 
         <!-- Styles -->
         <style>
-            
+            #body{
+                margin: 25px 75px;
+            }
+            #title{
+                font-family:"Segoe UI Regular";
+                font-size: 50px;
+                color: #55A2D0;
+            }
+            #navigasi{
+                background-color:#E2F3FD; 
+                height:100px;
+                padding: 0px 30px;
+            }
+            .menu{
+                font-size: 35px;
+                font-family: serif;
+            }
+            .form-control{
+                padding: 20px;
+            }
+            div h2{
+                text-decoration: underline;
+            }
         </style>
     </head>
     <body>
-    <nav class="navbar navbar-expand-lg navbar-light" id="navigasi" >
-            <img src="https://i.ibb.co/dr7H5ps/LnC.jpg" width="75px" alt="ayam-Kecap">
-            <a class="navbar-brand" href="#">Lunch N Co</a>
+        <nav class="navbar navbar-expand-lg navbar-light" id="navigasi" >
+            <img src="https://i.ibb.co/Kj1t7dv/LnC.png" width="75px" alt="logo">
+            <a class="navbar-brand" href="#" id="title">Lunch & Co</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="navbar-nav mr-auto"></div>
-                <a href="{{action('PageController@display','2_login')}}"> <button class="btn btn-primary my-2" type="button">Login</button></a>
             </div>
         </nav>
-    <div class="panel panel-default">
-  <div class="panel-body">Kapan Makanan Dianter?</div>
-</div>
-<div class="panel panel-default">
-  <div class="panel-body">Kapan Saya Bisa Memilih Pesanan Saya?</div>
-</div>
-<div class="panel panel-default">
-  <div class="panel-body">Bagaimana cara Mengganti Pesanan?</div>
-</div>
+
+        <div id="body">
+            <div>
+                <div class="menu">FREQUENTLY ASKED QUESTIONS</div>
+                <hr>
+            </div>
+            <div class="form-control">
+                <h2>Kapan Makanan Diantar?</h2>
+                <br>
+                <h5>Makanan akan diantar setiap jam 12 siang, namun perusahaan juga bisa mengganti ketentuan</h5>
+            </div>
+            <div class="form-control">
+                <h2>Kapan saya bisa mengganti pesanan saya?</h2>
+                <br>
+                <h5>Sebelum hari Senin di Minggu tersebut</h5>
+            </div>
+            <div class="form-control">
+                <h2>Bagaimana cara mengganti pesanan?</h2>
+                <br>
+                <h5>Login terlebih dahulu, kemudian di bawah halaman home terdapat daftar makanan minggu tersebut, klik foto makanan untuk mengganti</h5>
+            </div>
+            <br>
+            <a href="{{action('PageController@display3','')}}"> 
+                <button class="btn btn-light" type="button">Kembali</button>
+            </a>
+            
+        </div>
     </body>
 </html>

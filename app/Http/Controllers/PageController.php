@@ -6,83 +6,40 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
+    public function display1(){
+        return view('1_depan');
     }
-    public function display($halaman)
-    {
-        return view($halaman);
+    public function display2(){
+        return view('2_login');
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
+    public function display3(){
+        return view('3_home');
     }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
+    public function display4(){
+        return view('4_setting_profile');
     }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
+    public function display5(){
+        return view('5_change_password');
     }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
+    public function display6(){
+        return view('6_view_order');
     }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
+    public function display7(){
+        return view('7_history');
     }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
+    public function display8(){
+        return view('8_menu_detail');
+    }
+    public function display9(){
+        return view('9_ganti_order');
+    }
+    public function display10(){
+        return view('10_about_us');
+    }
+    public function display11(){
+        return view('11_faq');
+    }
+    public function display12(){
+        return view('12_home2');
     }
 }

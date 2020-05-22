@@ -125,9 +125,9 @@
             <div id="content">
                 <div class="card">
                     <a href="{{action('PageController@display8','')}}">
-                        <img src="https://i.ibb.co/N2gxxjr/ayam-Kecap-circle.png" width="210px" alt="ayam-Kecap-circle">
+                        <img src="https://i.ibb.co/sw35X3n/ayam-Serundeng-circle.png" width="210px" alt="ayam-Serundeng-circle">
                     </a>
-                    <h4>Ayam Kecap</h4>
+                    <h4>Ayam Serundeng</h4>
                 </div>
                 <div class="card">
                     <a href="{{action('PageController@display8','')}}">
